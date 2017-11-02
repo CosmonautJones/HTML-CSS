@@ -1,0 +1,22 @@
+.nav_container {
+    display: flex;
+    padding: 20px;
+}
+h1 {
+    color: green;
+    text-align: center;
+}
+.nav {
+    margin: 10px;
+}
+
+.nav__box:hover {
+    background: #6ec7fb;
+    transition: background 1s ease-out;
+    outline: 1px solid rgb(118, 226, 245);
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);  
+}
